@@ -1,0 +1,101 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: #f0f0f0;
+}
+
+.wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    background-color: #f9f9f9;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 100px 390px;
+}
+
+.wrapper_tittle {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 125px;
+    color: #000000;
+    font-family: "Proxima Nova";
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.item_img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 263px;
+    margin-bottom: 25px;
+    background-color: #ffffff;
+}
+
+.item_article {
+    margin-bottom: 22px;
+    color: #000000;
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.item_price {
+    margin-bottom: 25px;
+    color: #000000;
+    font-family: "Proxima Nova";
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.btn-buy {
+    padding: 23px 75px;
+    border: 1px solid #23bac1;
+    color: #23bac1;
+    font-family: "Proxima Nova";
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
