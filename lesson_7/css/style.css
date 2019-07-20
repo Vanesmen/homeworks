@@ -43,6 +43,12 @@
     font-weight: 400;
 }
 
+.items-wraper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
 .item {
     display: -webkit-box;
     display: -ms-flexbox;
