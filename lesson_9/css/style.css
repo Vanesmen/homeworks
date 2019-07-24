@@ -1,0 +1,41 @@
+body {
+    background: grey;
+}
+
+.main-block {
+    padding: 70px 0 90px 0;
+    background: white;
+    border-radius: 10px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.item>img {
+    width: 71px;
+    height: 71px;
+    margin-bottom: 20px;
+}
+
+.item>span {
+    text-align: center;
+    color: #333333;
+    font-family: Tahoma;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+h2 {
+    width: 100%;
+    margin-bottom: 82px;
+    color: #333333;
+    font-family: Tahoma;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
