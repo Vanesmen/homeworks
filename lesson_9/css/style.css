@@ -9,13 +9,14 @@ body {
 }
 
 .item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-bottom: 40px;
+    text-align: center;
 }
 
 .item>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 71px;
     height: 71px;
     margin-bottom: 20px;
