@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-block {
+    padding-top: 40px;
+    width: 100%;
+    height: 100vh;
+    background: #E4DBBF;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.main-block h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #DC5B21;
+}
+
+.df-jcc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    display: block;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 30px 30px 10px 0;
+    background: #DC5B21;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.lesson-item {
+    align-items: flex-start;
+}
+
+.lesson-info {
+    width: 80%;
+    height: 620px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.lesson-item {
+    position: absolute;
+    margin: 20px;
+    padding: 20px;
+    top: 0;
+    background: #70AB8F;
+    border-radius: 10px;
+    display: none;
+}
+
+.lesson-item:nth-child(1) {
+    display: flex;
+}
+
+.lesson-img img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.description {
+    padding: 15px;
+    color: #111d14;
+}
+
+.description h2 {
+    margin-bottom: 20px;
+}
+
+.description span {
+    width: 300px;
+}
