@@ -28,30 +28,28 @@ footer
     list-style: none
   ul li
     line-height: 32px
-  &-contacts
+  &-contacts, &-social-links
     +text-aligh_right
-    &_phone
-      font-weight: 400
-      font-size: 20px
-      color: #009adf
-  &-social-links
-    +text-aligh_right
-    li
+  &-contacts_phone
+    font-weight: 400
+    font-size: 20px
+    color: #009adf
+  &-social-links li
+    display: inline-block
+    a 
       display: inline-block
-      a 
-        display: inline-block
-        width: 42px
-        height: 42px
-        background-color: rgba(255, 255, 255, 0.1)
-        text-align: center
-        border-radius: 50%
-        line-height: 42px
-        margin-left: 10px
-        -webkit-transition: all 0.2s
-        transition: all 0.2s
-        &:hover 
-          background-color: rgba(255, 255, 255, 0.9)
-          color: darken($main-color, 33%)
+      width: 42px
+      height: 42px
+      background-color: rgba(255, 255, 255, 0.1)
+      text-align: center
+      border-radius: 50%
+      line-height: 42px
+      margin-left: 10px
+      -webkit-transition: all 0.2s
+      transition: all 0.2s
+      &:hover 
+        background-color: rgba(255, 255, 255, 0.9)
+        color: darken($main-color, 33%)
   
     
 
